@@ -4,4 +4,4 @@ type ProductWithPrice = {
   price: Stripe.Price
 } & Stripe.Product
 
-export { ProductWithPrice }
+export type { ProductWithPrice }
