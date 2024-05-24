@@ -13,7 +13,7 @@ export default function Product({
 }: ProductWithPrice) {
   // Rendering
   return (
-    <Link href={`/products/${id}`}>
+    <Link className="cursor-pointer" href={`/products/${id}`}>
       <div className="flex flex-col items-center gap-6 rounded-lg bg-third p-6">
         <Image
           src={images[0]}
